@@ -31,4 +31,5 @@ setup(
                     'tensorflow with gpu': ['tensorflow-gpu']},
     packages=setuptools.find_packages(),
     url="https://github.com/kyle3113/seq2seq",
+    python_requires='>=3.6',
 )
