@@ -19,7 +19,7 @@ Python package setup file.
 from setuptools import setup
 
 setup(
-    name="seq2seq",
+    name="seq2seq-kyle3113",
     version="0.1",
     install_requires=[
         "numpy",
@@ -29,4 +29,6 @@ setup(
     ],
     extras_require={'tensorflow': ['tensorflow'],
                     'tensorflow with gpu': ['tensorflow-gpu']},
+    packages=setuptools.find_packages(),
+    url="https://github.com/kyle3113/seq2seq",
 )
